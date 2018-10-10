@@ -1,7 +1,14 @@
 .square {
     height: 50px;
     width: 50px;
+    line-height: 50px;
     background-color: black;
     display: inline-block;
     margin: 10px;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+div.square:hover {
+    color: rgba(255, 255, 255, 1);
 }
